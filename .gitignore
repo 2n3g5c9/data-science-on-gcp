@@ -1,0 +1,8 @@
+# Ignore those directories
+node_modules/
+data/
+
+# Ignore those files
+.DS_Store
+.env
+credentials.json
