@@ -1,8 +1,8 @@
 # Ignore those directories
-node_modules/
+venv/
+.idea/
 data/
 
 # Ignore those files
 .DS_Store
-.env
 credentials.json
