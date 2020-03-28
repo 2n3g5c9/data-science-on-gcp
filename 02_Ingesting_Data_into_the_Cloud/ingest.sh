@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 # Perform all of the necessary actions from download to upload on GCS.
 

@@ -1,10 +1,11 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #
 # Download flight data to the DATA_DIRECTORY.
 
-DATA_DIRECTORY=data
+DATA_DIRECTORY=./data
 YEAR=2015
 
+mkdir -p $DATA_DIRECTORY/zip
 echo "Downloading YEAR=$YEAR..."
 
 for MONTH in `seq -w 1 12`; do
