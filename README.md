@@ -12,6 +12,8 @@
 
 [Chapter 2 - Ingesting Data into the Cloud](https://github.com/2n3g5c9/data-science-on-gcp/tree/master/02_Ingesting_Data_into_the_Cloud)
 
+[Chapter 3 - Creating Compelling Dashboards](https://github.com/2n3g5c9/data-science-on-gcp/tree/master/03_Creating_Compelling_Dashboards)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
