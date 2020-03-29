@@ -150,7 +150,7 @@ def upload(csv_file, bucket_name, blob_name):
     blob.upload_from_filename(csv_file)
     gcs_location = 'gs://{}/{}'.format(bucket_name, blob_name)
 
-    logging.info('Uploaded "{}" ...'.format(gcs_file))
+    logging.info('Uploaded "{}" ...'.format(gcs_location))
 
     return gcs_location
 
