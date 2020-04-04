@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [ "$#" -ne 1 ]; then
-    echo "Usage: ./populate_table.sh  bucket-name"
+    echo "Usage: ./populate_table.sh bucket-name"
     exit
 fi
 
