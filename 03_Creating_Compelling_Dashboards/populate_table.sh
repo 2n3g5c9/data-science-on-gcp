@@ -15,12 +15,12 @@ bash authorize_cloudshell.sh
 counter=0
 #for FILE in $(gsutil ls gs://${BUCKET}/flights/raw/2015*.csv); do
 #   gsutil cp $FILE flights.csv-${counter}
-for FILE in 201501.csv 201507.csv; do
-   gsutil cp gs://${BUCKET}/flights/raw/$FILE flights.csv-${counter}
+for FILE in 2015_01.csv 2015_07.csv; do
+   gsutil cp gs://${BUCKET}/flights/raw/${FILE} flights.csv-${counter}
    counter=$((counter+1))
 done
 
 # Import CSV files
 MYSQL_IP=$(gcloud sql instances describe flights --format="value(ipAddresses.ipAddress)")
-mysqlimport --local --host=$MYSQL_IP --user=root --ignore-lines=1 --fields-terminated-by=',' --password bts flights.csv-*
+mysqlimport --local --host="$MYSQL_IP" --user=root --ignore-lines=1 --fields-terminated-by="," --password bts flights.csv-*
 rm flights.csv-*
