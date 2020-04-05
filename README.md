@@ -14,6 +14,8 @@
 
 [Chapter 3 - Creating Compelling Dashboards](https://github.com/2n3g5c9/data-science-on-gcp/tree/master/03_Creating_Compelling_Dashboards)
 
+[Chapter 4 - Streaming Data: Publication and Ingest](https://github.com/2n3g5c9/data-science-on-gcp/tree/master/04_Streaming_Data)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details

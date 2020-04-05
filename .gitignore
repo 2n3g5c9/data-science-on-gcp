@@ -6,3 +6,4 @@ data/
 # Ignore those files
 .DS_Store
 credentials.json
+*.gz
