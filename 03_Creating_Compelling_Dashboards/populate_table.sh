@@ -16,7 +16,7 @@ counter=0
 #for FILE in $(gsutil ls gs://${BUCKET}/flights/raw/2015*.csv); do
 #   gsutil cp $FILE flights.csv-${counter}
 for FILE in 2015_01.csv 2015_07.csv; do
-   gsutil cp gs://${BUCKET}/flights/raw/${FILE} flights.csv-${counter}
+   gsutil cp gs://"${BUCKET}"/flights/raw/${FILE} flights.csv-${counter}
    counter=$((counter+1))
 done
 
