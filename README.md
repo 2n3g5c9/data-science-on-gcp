@@ -4,7 +4,7 @@
 
 <br />
 
-<div align="center">Unofficial take on the case study in "Data Science on the Google Cloud Platform" published by O'Reilly</div>
+<div align="center">Unofficial take on the case study in "Data Science on the Google Cloud Platform" published by O'Reilly (includes code fixes)</div>
 
 <br />
 
