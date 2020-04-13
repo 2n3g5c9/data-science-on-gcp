@@ -1,6 +1,6 @@
 # 3. Creating Compelling Dashboards
 
-> **Main additions to the original code:** more parameters in the creation of the Cloud SQL instance, HTTPS call via `curl` instead of HTTP call via `wget`.
+> **ℹ️ Main additions to the original code:** more parameters in the creation of the Cloud SQL instance, HTTPS call via `curl` instead of HTTP call via `wget`.
 
 ### Loading data into Google Cloud SQL
 * In CloudShell, change to the `03_Creating_Compelling_Dashboards` directory in your clone of the source code repository.

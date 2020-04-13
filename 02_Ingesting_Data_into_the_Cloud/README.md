@@ -1,6 +1,6 @@
 # 2. Ingesting Data into the Cloud
 
-> **Main additions to the original code:** further commented Python code, AppEngine with a Python 3.7 runtime and Pipfiles to manage Python dependencies.
+> **ℹ️ Main additions to the original code:** further commented Python code, AppEngine with a Python 3.7 runtime and Pipfiles to manage Python dependencies.
 
 ### Populate your bucket with the data you will need for the book
 
